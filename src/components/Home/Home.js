@@ -6,6 +6,8 @@ import {
   fetchAsyncMovies,
   fetchAsyncShows,
 } from "../../features/movies/movieSlice";
+
+
 const Home = () => {
   const dispatch = useDispatch();
   useEffect(() => {
